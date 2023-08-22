@@ -1,0 +1,418 @@
+            @page {
+    size: A5 letter;
+    margin: 10mm;
+    margin-top: 12mm;
+    
+    @bottom-right {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #949496;
+        content: "Page " counter(page) " of " counter(pages);
+        white-space: pre-line noWrap;
+    }
+    @bottom-left {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #949496;
+        content: "Visit www.consumerfinance.gov/mortgage-estimate for general information and tools\AKeystone Funding, Inc. NMLS ID: 144760";
+        white-space: pre-line;
+    }
+
+}
+
+.page-break {
+    display: block;
+    page-break-after: always;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+}
+.odd-td-width{
+    width: 50%;
+}
+.even-td-width{
+    width: 50%;
+}
+table {
+    /* border-collapse: collapse !important; */
+    width: 534px;
+    
+    /* table-layout: fixed; */
+    /* margin: 0px 50px; */
+}
+
+
+img{
+    width: auto;
+}
+img.pdfLogo{
+    max-width: 100%;
+}
+
+.border-left-0{
+    border-left: 0px !important;
+}
+.border-top-1{
+    border-top: 1px !important;
+}
+table tr.border-bottom-1{
+    border-bottom: 1px !important;
+}
+.border-right-0{
+    border-right: 0px !important;
+}
+
+table.table-closing{
+    border: 0 !important;
+}
+.table-child1{
+    width: 262px !important;
+    float: left !important;
+    margin-top: -20px;
+}
+.table-child2{
+    width: 268px !important;
+    float: right !important;
+}
+td.border-left {
+    border-left: 1px solid #000000;
+}
+td.border-right {
+    border-right: 1px solid #000000;
+}
+td.border-top {
+    border-top: 1px solid #000000;
+}
+td.border-bottom {
+    border-bottom: 1px solid #000000;
+}
+tr.border-bottom td {
+    border-bottom: 1px solid #000000;
+}
+tr.border-top td {
+    border-top: 1px solid #000000;
+}
+tr.blueRow td{
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    width: 700px;
+    clear: both;
+    background-color: #000066;
+    color: #ffffff;
+}
+td.leftCol {
+    padding-left: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 250px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+td.rightCol {
+    padding-right: 3px;
+    padding-left: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 450px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+td.leftCol2 {
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 600px;
+    /* border-left: 1px solid #000000; */
+}
+
+td.rightCol2 {
+    padding-left: 3px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100px;
+    /* border-right: 1px solid #000000; */
+    text-align: right;
+}
+td.leftCol3 {
+    padding-left: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 350px;
+    border-left: 1px solid #000000;
+}
+
+td.rightCol3 {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 350px;
+    border-right: 1px solid #000000;
+}
+td.leftCol4 {
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 150px;
+    /* border-left: 1px solid #000000; */
+}
+
+td.rightCol4 {
+    padding-left: 3px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 550px;
+    /* border-right: 1px solid #000000; */
+}
+td.leftCol5 {
+    padding-left: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 250px;
+    /* border-left: 1px solid #000000; */
+}
+td.middleCol5 {
+    padding-left: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 70px;
+    border-left: 1px solid #000000;
+}
+
+td.rightCol5 {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 380px;
+    /* border-right: 1px solid #000000; */
+}
+td.leftCol6 {
+    padding-left: 6px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 270px;
+}
+td.middleColA6 {
+    padding-left: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 73px;
+    
+}
+td.middleColB6 {
+    padding-left: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 14px;
+    
+}
+
+td.rightCol6 {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 343px;
+    
+}
+td.oneCol {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 700px;
+    /* border-left: 1px solid #000000;
+    border-right: 1px solid #000000; */
+}
+.operatorPadding {
+    padding-right: 8px;
+}
+.top-bottom-padding {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.strong {
+    font-weight: bold;
+}
+.italic-gray {
+    font-style: italic !important;
+}
+.italic-bold-underline {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+td{
+    font-size: 11px !important;
+    line-height: 12px !important;
+    color: #000000 !important;
+    /* border: 0px !important; */
+}
+.td-heading {
+    color: #ffffff !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    /* padding: 5px 0px; */
+    line-height: 16px !important;
+}
+.line-height{
+    line-height: 14px;
+}
+.heading-h4{
+    font-size: 12px !important;
+    line-height: 14px !important;
+    border: 0px !important;
+    margin-top: 10px !important;
+    margin-bottom: 100px !important;
+    color: black !important;
+}
+.heading-h3{
+    font-size: 13px !important;
+    width: 150px !important;
+    line-height: 14px !important;
+    margin-top: 135px !important;
+    margin-bottom: 10px !important;
+    color: black !important;
+}
+.border-bottom{
+    border-bottom: 1px solid #000 !important;
+}
+.oneCol{
+    line-height: 14px !important;
+}
+.text-bold{
+    font-weight: 700 !important; 
+    font-style: italic;
+    letter-spacing: 0;
+}
+.lineheight{
+    line-height: 14px !important;
+}
+
+.btn-create-pdf span {
+    color: #fff;
+}
+
+.btn-create-pdf svg {
+    padding-left: 10px;
+}
+.btn-create-pdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConsiderationsTable{
+    margin-top: 140px;
+}
+
+.ConsiderationsTable td{
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.ConsiderationsTable .rightCol4{
+    border-left: 0px;
+}
+
+.noBorderTable tr td{
+    border: 0px;
+}
+
+.noBorderTable .blueRow td{
+    border: 1px solid #000 !important;
+}
+
+.table-child1 td tr{
+    border: 0px !important;
+}
+.bold-500{
+    font-weight: 700 !important;
+}
+
+/* PreDualPDF */
+.main-content{
+    width: 530px;
+    font-size: 12px;
+}
+.mail-heading{
+    margin-bottom: 10px;
+}
+.mail-heading img{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+margin-bottom: 15px;
+}
+.mail-heading h1{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.mail-body h1{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.mail-body table{
+    margin: 15px 0px;
+}
+.mail-body table td{
+    padding:3px 5px 6px 5px!important;
+    font-size: 12px !important;
+    /* line-height: 16px !important; */
+}
+.mail-body table td:nth-child(odd){
+    border-right: 1px solid #000;
+    width: 200px;
+}
+
+.mail-body table tr{
+    border-bottom: 1px solid #000;
+}
+.mail-body table tr:last-child{
+    border-bottom:0px !important;
+}
+.mail-body p{
+font-size: 12px;
+margin-bottom: 15px;
+line-height: 16px;
+}
+
+.mail-body h1{
+    font-size: 16px;
+    margin: 15px 0px;
+    line-height: 18px;
+}
+.mail-info{
+display: flex;
+justify-content: space-between;
+}
+.mail-info p{
+margin-bottom: 0px;
+}
+.sign-info{
+    margin-bottom: 15px;
+}
+.sign-info p{
+    margin-bottom: 5px;
+}
